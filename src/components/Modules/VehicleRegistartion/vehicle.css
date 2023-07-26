@@ -1,0 +1,18 @@
+.selectbox {
+  width: 80% !important;
+}
+.content1 {
+  background-color: #fff;
+}
+.searchdiv {
+  background-color: #fff;
+}
+.detailLabels {
+  color: blue;
+  font-family: robotica;
+  padding: 20px 20px 20px 20px;
+}
+.details {
+  margin: 0 auto !important;
+  width: 90% !important;
+}

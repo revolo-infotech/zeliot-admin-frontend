@@ -1,0 +1,29 @@
+.searchrow {
+  padding-right: 10px;
+  width: 20%;
+}
+.clientDetails {
+  font-size: 12px;
+  font-family: robot;
+  text-align: justify;
+  padding-top: 6%;
+}
+.subtitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+.Error_msg {
+  color: red;
+}
+.form_layout {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  min-height: 500px;
+}
+.Landing {
+  min-height: 100vh;
+}
+.MuiCardContent-root-133 {
+  min-height: 400px;
+}

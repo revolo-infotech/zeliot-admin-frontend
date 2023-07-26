@@ -1,0 +1,11 @@
+.formouter {
+    margin: 0 auto;
+    width: 90%;
+}
+.Formheader
+{
+    text-align: center;
+}
+.btn {
+    margin: 2px 9px 2px 2px !important;
+}

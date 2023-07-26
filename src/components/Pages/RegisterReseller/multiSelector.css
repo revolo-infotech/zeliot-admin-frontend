@@ -1,0 +1,163 @@
+.criteria-list {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.criteria-list button {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.criteria-list .drop-arrow,
+.view-selector .drop-arrow {
+  padding-right: 20px;
+  position: relative;
+}
+
+.criteria-list .aui-button {
+  padding: 5px 30px 5px 8px;
+  width: 100%;
+}
+
+.aui-button.aui-button-subtle {
+  background: transparent;
+  color: #707070;
+}
+
+.aui-button,
+a.aui-button,
+.aui-button:visited {
+  background: #f2f2f2;
+  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 3.01px;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 12px;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.42857142857143;
+  margin: 0;
+  padding: 4px 10px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+  vertical-align: baseline;
+  white-space: nowrap;
+  height: 30px;
+  outline: none;
+}
+
+.criteria-list .fieldLabel {
+  color: #666;
+}
+
+.criteria-list .drop-arrow:after,
+.view-selector .drop-arrow:after {
+  border: 4px solid transparent;
+  border-top-color: #111;
+  content: '';
+  height: 0;
+  position: absolute;
+  right: 28px;
+  top: 13px;
+  width: 0;
+}
+
+.criteria-list .remove-select {
+  color: #bbb;
+  right: 11px;
+  top: 9px;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  opacity: 0.3;
+  outline: none;
+  text-decoration: none;
+}
+
+.criteria-list .remove-select:hover {
+  opacity: 1;
+}
+
+.criteria-list .remove-select:before,
+.criteria-list .remove-select:after {
+  position: absolute;
+  left: 5px;
+  content: ' ';
+  height: 12px;
+  width: 2px;
+  background-color: #333;
+}
+
+.criteria-list .remove-select:before {
+  transform: rotate(45deg);
+}
+
+.criteria-list .remove-select:after {
+  transform: rotate(-45deg);
+}
+
+.criteria-extended {
+  width: 150px;
+}
+
+.criteria-extended .criteria-selector {
+  padding-right: 40px;
+}
+
+.open {
+  display: block !important;
+}
+
+.rm-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.rm-dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 2px 15px;
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+}
+
+.rm-dropdown-menu .dropdown-content {
+  margin: 2px 15px;
+}
+
+.rm-dropdown-menu .search-operation {
+  display: none;
+}
+
+.rm-dropdown-menu .allCheck-operation {
+  display: none;
+}
+
+.searcherValue {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
